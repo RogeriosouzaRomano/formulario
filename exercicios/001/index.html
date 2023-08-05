@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <form action="cadastro.php" method="get" autocomplete="on">
+         <h1>Informe seus dados</h1>
+                <p>
+                 <label for="idnome">Primeiro Nome</label>
+                 <input type="text" name="idnome" id="idnome" required autocomplete="username">
+                 </p> 
+                <p>
+                 <label for="idsobrenome"reset>Sobrenome</label>
+                 <input type="text" name="idsobrenome" id="idsobrenome" required autocomplete="username" >
+                    
+                </p>
+                <p>
+                    <label for="idtel">Contato(whatsApp):</label>
+                    <input type="tel" name="idddd" id="idddd"minlength="3" maxlength="3" size="1" placeholder="DDD"required>
+                    <input type="tel" name="idtel" id="idtel" minlength="9" maxlength="10"placeholder="00000-0000" required>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">    <input type="reset" value="Limpar">
+                </p>
+        </form>      
+    </header>
+    
+</body>
+</html>
